@@ -1,0 +1,38 @@
+/* body font style rule*/
+.body 
+{
+    font-family:"Roboto",
+    sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+/*logo & navigation*/
+.webstudio-logo 
+{
+    font-family: "Raleway",
+    sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    }
+.studio
+    {
+        color: #2e2f42;
+    }
+/*section1*/
+.button-section 
+    {background-color: #2E2F42;}
+
+.page-title 
+{ 
+    color: #FFFFFF;
+}
+.order-button 
+{ 
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+}
+
