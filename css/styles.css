@@ -6,7 +6,7 @@
     color: #434455;
     background-color: #FFFFFF;
 }
-/*logo & navigation*/
+
 .webstudio-logo 
 {
     font-family: "Raleway",
@@ -22,9 +22,22 @@
     {
         color: #2e2f42;
     }
-/*section1*/
-.button-section 
-    {background-color: #2E2F42;}
+/*page navigation*/
+.page-navigation 
+{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none ;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.page-navigation.link:hover {color:#404bbf;}
+
+.page-navigation.link:focus {color:#404bbf;}
+
+.page-navigation.button-section {background-color: #2E2F42;}
+
 
 .page-title 
 { 
@@ -35,4 +48,9 @@
     background-color: #4D5AE5;
     color: #FFFFFF;
 }
+.address {font-style: normal;}
+/*section1*/
+
+.button-section {background-color:#2E2F42 ;}
+
 
