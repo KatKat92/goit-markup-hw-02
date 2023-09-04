@@ -1,134 +1,130 @@
-:root 
-{
---color-brand: #2E2F42;
---color-primery: #FFFFFF;
+:root {
+  --color-brand: #2e2f42;
+  --color-primery: #ffffff;
 }
 
-body 
-{
-    font-family: "Roboto",
-    sans-serif;
-    color: #434455;
-    background-color: var(--color-primery);
-    letter-spacing: 0.02em;
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: var(--color-primery);
+  letter-spacing: 0.02em;
 }
 
-.main-logo
-{
-    font-family: "Raleway",
-    sans-serif;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--color-brand);
+.main-logo {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-brand);
 }
 
-.mainlogo-accent 
-    {
-    color: #4D5AE5;
-    }
-.studio
-    {
-        font-family: "Raleway", 
-        sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 21px;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: var(--color-brand);
-    }
+.mainlogo-accent {
+  color: #4d5ae5;
+}
+.studio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-brand);
+}
 /*page navigation HEADER*/
-.nav-link
-{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    text-decoration: none ;
-    letter-spacing: 0.02em;
-    color:var(--color-brand);
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  color: var(--color-brand);
 }
-.nav-link:hover {color:#404bbf;}
-
-.nav-link:focus {color:#404bbf;}
-
-.button-section {background-color: var(--color-brand);}
-
-.page-title 
-{ 
-    color: var(--color-primery);
-    text-align: center;
-    font-size: 56px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px;
-    letter-spacing: 1.12px;
+.nav-link:hover {
+  color: #404bbf;
 }
 
-.primery-button
-{ 
-    background-color: #4d5ae5;
-    border-radius: 4px;
-    color: var(--color-primery);
-    align-items: flex-start;
-    display: flex;
-    gap: 10px;
-    border: none;
-    cursor: pointer;
-    padding: 16px 32px;
-    box-sizing: border-box
+.nav-link:focus {
+  color: #404bbf;
 }
 
-.primery-button:hover
-{
-    border-radius: 4px;
-    background:#404BBF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    box-sizing: border-box
+.button-section {
+  background-color: var(--color-brand);
 }
 
-.address {font-style: normal;}
-
-.contacts 
-{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    font-style: normal;
-    text-decoration: none;
-
+.page-title {
+  color: var(--color-primery);
+  text-align: center;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 1.12px;
 }
-.contacts:hover {color: #404bbf;}
-.contacts:focus {color: #404bbf;}
 
+.primery-button {
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  color: var(--color-primery);
+  align-items: flex-start;
+  display: flex;
+  gap: 10px;
+  border: none;
+  cursor: pointer;
+  padding: 16px 32px;
+  box-sizing: border-box;
+}
 
+.primery-button:hover {
+  border-radius: 4px;
+  background: #404bbf;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+
+.address {
+  font-style: normal;
+}
+
+.contacts {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-style: normal;
+  text-decoration: none;
+}
+.contacts:hover {
+  color: #404bbf;
+}
+.contacts:focus {
+  color: #404bbf;
+}
 
 /*section1*/
 
-.button-section {background-color:var(--color-brand);}
+.button-section {
+  background-color: var(--color-brand);
+}
 
 .caption {
-    color: var(--color-brand);
-    font-family:" Roboto", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    text-decoration: none;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
+  color: var(--color-brand);
+  font-family: " Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .sub-caption {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
 }
-
-
