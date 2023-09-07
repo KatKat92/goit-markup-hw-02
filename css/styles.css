@@ -16,20 +16,20 @@ body {
   text-decoration: none;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1, 16;
+  line-height: 1, 17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--color-brand);
+  color: #4d5ae5;
 }
 
 .mainlogo-accent {
-  color: #4d5ae5;
+  color: var(--color-brand);
 }
 .studio {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1, 16;
+  line-height: 1, 17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-brand);
@@ -48,21 +48,11 @@ body {
 }
 
 .nav-link:focus {
-  color: var(--hover-color) f;
+  color: var(--hover-color);
 }
 
 .button-section {
   background-color: var(--color-brand);
-}
-
-.page-title {
-  color: var(--color-primery);
-  text-align: center;
-  font-size: 56px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.07;
-  letter-spacing: 1.12px;
 }
 
 .primery-button {
@@ -102,6 +92,15 @@ body {
 }
 
 /*section1*/
+.page-title {
+  color: var(--color-primery);
+  text-align: center;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+}
 
 .button-section {
   background-color: var(--color-brand);
@@ -131,6 +130,7 @@ body {
 }
 .team {
   background-color: #f4f4fd;
+  color: #2e2f42;
   letter-spacing: 0.72px;
   text-align: center;
   text-transform: capitalize;
@@ -144,6 +144,20 @@ body {
   display: block;
   background-color: #ffffff;
 }
+.names {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.paragraff_employee {
+  font-size: 16px;
+  line-height: 1.5;
+}
+/*section3*/
+
 .Portfolio {
   color: #2e2f42;
   text-align: center;
