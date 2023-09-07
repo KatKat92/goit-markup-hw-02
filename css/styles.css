@@ -42,6 +42,7 @@ body {
   text-decoration: none;
   letter-spacing: 0.02em;
   color: var(--color-brand);
+  font-style: normal;
 }
 .nav-link:hover {
   color: var(--hover-color);
@@ -75,7 +76,9 @@ body {
 .address {
   font-style: normal;
 }
-
+.address_header {
+  font-style: normal;
+}
 .contacts {
   font-size: 16px;
   line-height: 1.5;
@@ -140,7 +143,6 @@ body {
   line-height: 1.11;
 }
 .employee {
-  display: block;
   background-color: #ffffff;
 }
 .names {
@@ -160,7 +162,6 @@ body {
 .Portfolio {
   color: #2e2f42;
   text-align: center;
-  display: block;
   font-family: "Roboto", sans-serif;
   font-size: 36px;
   font-style: normal;
@@ -188,7 +189,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.15;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 .mainlogo-accent-footer {
